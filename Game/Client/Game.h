@@ -1,10 +1,11 @@
 // Game.h
 
 #pragma once
+
 class Game
 {
 public:
-    void init();
-    void update();
 
+    void Init(const WindowInfo& info);
+    void Update();
 };
